@@ -6,6 +6,12 @@
         padding-top: calc($separacion / 2);
     }
 
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto; /*para que no se achique la navegación del footer*/
+    }
+
     .copyright {
         color: $blanco;
         text-align: center;
