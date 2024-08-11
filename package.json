@@ -7,7 +7,7 @@
     "dev": "gulp",
     "ver": "gulp watchArchivos"
   },
-  "author": "Juan De La Torre",
+  "author": "Lenin Guerrero Gutierrez",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^5.1.0",
