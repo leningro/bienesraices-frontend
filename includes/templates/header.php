@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    <header class="header <?php echo isset($inicio) ? 'inicio' : ''; ?>">
+    <header class="header <?php echo $inicio ? 'inicio' : ''; ?>"> <!--isset() solo se confirma si es que la variable esta definiada. Por eso lo quitamos-->
         <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="/">
@@ -27,6 +27,6 @@
                     </nav>
                 </div>
             </div>
-            <?php echo isset($inicio) ? '<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>' : ''; ?>
+            <?php echo $inicio ? '<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>' : ''; ?>
         </div>
     </header>
