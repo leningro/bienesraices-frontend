@@ -1,7 +1,10 @@
 <?php 
-    // echo "<pre>";
-    // var_dump($_POST);
-    // echo "</pre>";
+    require '../includes/funciones.php';
+    $auth = estaAutenticado();
+
+    if(!$auth) {
+        header('Location: /');
+    }
 
     //Importar la conexión a la BD
     require '../includes/config/database.php';
@@ -41,7 +44,6 @@
     }
 
     // Incluye un template 
-    require '../includes/funciones.php';
     incluirTemplate('header');    
 ?>
 

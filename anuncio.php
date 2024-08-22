@@ -18,9 +18,9 @@
     //obtenemos el resultado de la consulta 
     $resultado = mysqli_query($db, $query);
 
-    echo "<pre>";
-    var_dump($resultado);
-    echo "</pre>";
+    // echo "<pre>";
+    // var_dump($resultado);
+    // echo "</pre>";
 
     /*
     El $resultado no es un arreglo, es de tipo OBJECT 

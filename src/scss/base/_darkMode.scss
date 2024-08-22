@@ -17,7 +17,11 @@
         .precio {
             color: $verde;
         }
-
+        .icono {
+            filter: invert(100%);
+        }
+    }
+    .iconos-caracteristicas {
         .icono {
             filter: invert(100%);
         }
